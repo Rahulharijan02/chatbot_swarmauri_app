@@ -7,7 +7,7 @@ from swarmauri.standard.conversations.concrete.MaxSystemContextConversation impo
 from .models import ChatMessage
 import time
 
-API_KEY = "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"
+API_KEY = "gsk_QcDJ4oMgqDdUBbvlwEikWGdyb3FY2yoTEG5tj3S9OzTh"
 conversation = MaxSystemContextConversation()
 llm = GroqModel(api_key=API_KEY)
 
