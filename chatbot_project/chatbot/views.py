@@ -6,7 +6,7 @@ from swarmauri.standard.agents.concrete.SimpleConversationAgent import SimpleCon
 from swarmauri.standard.conversations.concrete.MaxSystemContextConversation import MaxSystemContextConversation
 from .models import ChatMessage
 
-API_KEY = "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"
+API_KEY = "gsk_QcDJ4oMgqDdUBbvlwEikWGdyb3FY2yoT"
 conversation = MaxSystemContextConversation()
 llm = GroqModel(api_key=API_KEY)
 
